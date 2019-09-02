@@ -1,0 +1,1 @@
+C:\xampp\php\php.exe -f C:\xampp\htdocs\moodle\admin\cli\cron.php > C:\xampp\htdocs\moodle\admin\cli\cron.log
