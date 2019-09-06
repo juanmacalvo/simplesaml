@@ -96,8 +96,20 @@ $config = [
             'cn' => ['pepe'],
             'sn' => ['pepe'],
             'mail' => ['mail1@mail.com'],
-            'schacUserStatus' => ['esp', 'esp', '2', '2019-20', 'student','active',''],
+            'schacUserStatus' => ['urn:mace:terena.org:schac:userStatus:::w:0:student:active'],
           ],
+
+
+
+
+          'user2:user2pass' => [
+            'eduPersonPrincipalName' => ['user2'],
+            'eduPersonAffiliation' => ['admin'],
+              'cn' => ['paco'],
+              'sn' => ['paco'],
+              'mail' => ['mail2@mail.com'],
+              'schacUserStatus' => [],
+            ],
         ],
 
     /*'example-static' => [
