@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 10-09-2019 a las 07:54:03
+-- Tiempo de generación: 03-10-2019 a las 04:33:48
 -- Versión del servidor: 10.1.38-MariaDB
 -- Versión de PHP: 7.1.26
 
@@ -40,7 +40,9 @@ CREATE TABLE `course_mapping` (
 --
 
 INSERT INTO `course_mapping` (`saml_id`, `course_id`, `blocked`, `id`) VALUES
-('444444', '9', 0, 3);
+('444444', 'i', 0, 3),
+('1234', 'f', 0, 4),
+('54', 'i', 0, 6);
 
 --
 -- Índices para tablas volcadas
@@ -51,7 +53,7 @@ INSERT INTO `course_mapping` (`saml_id`, `course_id`, `blocked`, `id`) VALUES
 --
 ALTER TABLE `course_mapping`
   ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `course_id` (`course_id`);
+  ADD UNIQUE KEY `mapping` (`course_id`,`saml_id`) USING BTREE;
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
@@ -61,7 +63,7 @@ ALTER TABLE `course_mapping`
 -- AUTO_INCREMENT de la tabla `course_mapping`
 --
 ALTER TABLE `course_mapping`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
