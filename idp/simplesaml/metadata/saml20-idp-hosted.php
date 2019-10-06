@@ -30,14 +30,14 @@ $metadata['__DYNAMIC:1__'] = [
     // Conjunto de atributos que van a estar disponibles para crear las ARPs
 
 
-    'attributes.NameFormat' => 'urn:oasis:names:tc:SAML:2.0:attrname-format:uri',
+    //'attributes.NameFormat' => 'urn:oasis:names:tc:SAML:2.0:attrname-format:uri',
 
-    'authproc' => [
+    /*'authproc' => [
 
         // Convert LDAP names to urn.
         50 => ['class' => 'core:AttributeMap', 'name2urn'],
 
-    ],
+    ],*/
 
 
     /*

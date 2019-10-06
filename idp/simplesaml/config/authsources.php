@@ -96,7 +96,7 @@ $config = [
             'cn' => ['pepe'],
             'sn' => ['pepe'],
             'mail' => ['mail1@mail.com'],
-            'schacUserStatus' => ['urn:mace:terena.org:schac:userStatus:es:localhost:1:0:student:active'],
+            'schacUserStatus' => ['urn:mace:terena.org:schac:userStatus:es:localhost:88:0:student:active'],
           ],
 
 
